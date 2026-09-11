@@ -1,0 +1,55 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "SaaSUnitMath - B2B SaaS Magic Number & Sales Efficiency Sizer API",
+    "description": "Quarterly net new ARR efficiency, CAC payback, and net revenue churn modeling API. Official production documentation hosted at https://site-12-taupe.vercel.app/",
+    "version": "1.1.0",
+    "contact": {
+      "name": "SaaSUnitMath Architecture Team",
+      "url": "https://site-12-taupe.vercel.app/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://site-12-taupe.vercel.app",
+      "description": "Production Web Application Gateway"
+    }
+  ],
+  "paths": {
+    "/api/v1/magic-number": {
+      "get": {
+        "summary": "Calculate SaaS GTM efficiency score and CAC payback months",
+        "description": "Executes the empirical calculations and data models for SaaSUnitMath.",
+        "responses": {
+          "200": {
+            "description": "Successful calculation response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "example": "ok"
+                    },
+                    "timestamp": {
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "site_url": {
+                      "type": "string",
+                      "example": "https://site-12-taupe.vercel.app/"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
