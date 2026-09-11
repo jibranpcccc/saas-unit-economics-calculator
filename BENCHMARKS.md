@@ -15,3 +15,13 @@ Formulas and empirical calculators for LTV/CAC, Magic Number, Net Revenue Retent
 
 ---
 Maintained by [SaaSUnitMath](https://site-12-taupe.vercel.app/).
+
+## 📚 In-Depth Technical Implementation Guides
+
+| Target Engineering Query | Production Reference & Guide URL |
+| :--- | :--- |
+| **Saas Ltv Cac Payback Calculator** | [https://site-12-taupe.vercel.app/saas-ltv-cac-payback-period-calculator/](https://site-12-taupe.vercel.app/saas-ltv-cac-payback-period-calculator/) |
+| **Rule Of 40 Saas Growth Model** | [https://site-12-taupe.vercel.app/rule-of-40-saas-valuation-growth-model/](https://site-12-taupe.vercel.app/rule-of-40-saas-valuation-growth-model/) |
+| **Saas Magic Number Calculator Formula** | [https://site-12-taupe.vercel.app/saas-magic-number-calculator/](https://site-12-taupe.vercel.app/saas-magic-number-calculator/) |
+| **B2B Saas Payback Period Benchmark By Acv** | [https://site-12-taupe.vercel.app/b2b-saas-cac-payback-benchmarks/](https://site-12-taupe.vercel.app/b2b-saas-cac-payback-benchmarks/) |
+
